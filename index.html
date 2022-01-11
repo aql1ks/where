@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Куда пицца</title>
+    <link rel="icon" href="./img/logo.svg" sizes="16x16">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <img src="./img/point.svg" alt="Point">
+            <span class="header-top__city">Москва</span>
+            <img src="./img/arrow.svg" alt="Arrow">
+            <span class="header-top__check-adress">Проверить адрес</span>
+            <span class="header-top__time">Среднее время доставки*: <span
+                    class="header-top__time-item">00:24:19</span></span>
+            <span class="header-top__work-time">Время работы: с 11:00 до 23:00</span>
+            <img src="./img/person.svg" alt="Person">
+            <span class="header-top__login">Войти в аккаунт</span>
+        </div>
+        <hr class="header-line">
+        <div class="header-bottom">
+            <img class="header-bottom__pizza" src="./img/logo.svg" alt="Pizza">
+            <span class="header-bottom__title">Куда пицца</span>
+            <button class="header-bottom__cart-price">
+                <img class="header-bottom__cart" src="./img/cart.svg" alt="Cart">
+                <span class="header-bottom__price">0 ₽</span>
+            </button>
+        </div>
+        <hr class="header-line">
+    </header>
+    <div class="hert">
+    <main>
+        <section class="sections">
+            <button class="sections-block">
+                <img class="sections-img-fire" src="./img/sections/fire2.svg" alt="Fire">
+                <span class="sections-text-little">Акции</span>
+                </butbutton>
+                <button class="sections-block">
+                    <img class="sections-img-pizza" src="./img/sections/pizza2.svg" alt="Pizza1">
+                    <span class="sections-text-little">Пицца</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-sushi" src="./img/sections/sushi2.svg" alt="Sushi">
+                    <span class="sections-text-little">Суши</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-drink" src="./img/sections/drink2.svg" alt="Drink">
+                    <span class="sections-text">Напитки</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-fries" src="./img/sections/fries2.svg" alt="Fries">
+                    <span class="sections-text">Закуски</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-combo" src="./img/sections/combo2.svg" alt="Combo">
+                    <span class="sections-text-little">Комбо</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-dessert" src="./img/sections/dessert2.svg" alt="Dessert">
+                    <span class="sections-text">Десерты</span>
+                </button>
+                <button class="sections-block">
+                    <img class="sections-img-sauce" src="./img/sections/sauce2.svg" alt="Sauce">
+                    <span class="sections-text-little">Соусы</span>
+                </button>
+        </section>
+        <section class="offers">
+            <col-3>
+                <img class="offers-img" src="./img/offer1.png" alt="Offer1">
+            </col-3>
+            <col-3>
+                <img class="offers-img" src="./img/offer2.png" alt="Offer2 ">
+            </col-3>
+            <col-3>
+                <img class="offers-img" src="./img/offer1.png" alt="Offer1">
+            </col-3>
+            <col-3>
+                <img class="offers-img" src="./img/offer2.png" alt="Offer2">
+            </col-3>
+        </section>
+        <section class="adress">
+            <span class="adress-text">Проверить адрес доставки</span>
+            <div class="adress-find">
+                <img class="adress-find__img" src="./img/point.svg" alt="Point">
+                <input class="adress-find__filter" placeholder="Адрес" id="comment" name="Adress"></input>
+            </div>
+            <button class="adress-button"><a
+                    href="https://yandex.ru/maps/213/moscow/chain/dodo_picca/70891266502/?ll=37.790929%2C55.749901&sll=37.732367%2C55.732763&sspn=1.444702%2C0.491281&z=11"
+                    class="adress-button-item">Проверить</a></button>
+        </section>
+        <section class="pizza">
+            <div class="pizza-top">
+                <h2 class="pizza-top__title">Пицца</h2>
+                <button class="pizza-top__filter">
+                    <img class="pizza-top__filter-img" src="./img/filter.svg" alt="Filter">
+                    <span class="pizza-top__filter-item"><a href="">Фильтры</a></span>
+                </button>
+            </div>
+            <div class="pizza-top-blocks">
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza1.png" alt="Pizza">
+                        <span class="pizza-block-name">Чикен Сладкий Чили Вилибили </span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 399 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza2.png" alt="Pizza">
+                        <span class="pizza-block-name">EASY PEASY огуречный расколбас</span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 549 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza3.png" alt="Pizza">
+                        <span class="pizza-block-name">EASY PEASY чикен а-ля хрен</span>
+                        <span class="pizza-block-contain">Курица, Лук, Соус Карбонара,...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 249 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza1.png" alt="Pizza">
+                        <span class="pizza-block-name">4 сезона Весна, Зимушка, Лето и Осень</span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 630 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pizza-bottom-blocks">
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza1.png" alt="Pizza">
+                        <span class="pizza-block-name">4 сезона Весна, Зимушка, Лето и Осень</span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 630 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza2.png" alt="Pizza">
+                        <span class="pizza-block-name">EASY PEASY огуречный расколбас</span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 549 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza1.png" alt="Pizza">
+                        <span class="pizza-block-name">Чикен Сладкий Чили Вилибили </span>
+                        <span class="pizza-block-contain">Курица, Лук, Перец Халапеньо...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 399 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="pizza-block">
+                        <img class="pizza-block-img" src="./img/pizza3.png" alt="Pizza">
+                        <span class="pizza-block-name">EASY PEASY чикен а-ля хрен</span>
+                        <span class="pizza-block-contain">Курица, Лук, Соус Карбонара,...</span>
+                        <button class="pizza-block-btn"><a class="pizza-block-btn-item" href="">Выбрать</a></button>
+                        <span class="pizza-block-price">от 249 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sushi">
+            <div class="sushi-top">
+                <h2 class="sushi-top__title">Суши</h2>
+                <button class="sushi-top__filter">
+                    <img class="sushi-top__filter-img" src="./img/filter.svg" alt="Filter">
+                    <span class="sushi-top__filter-item">Фильтры</span>
+                </button>
+            </div>
+            <div class="sushi-top-blocks">
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi1.png" alt="Sushi">
+                        <span class="sushi-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi2.png" alt="Sushi">
+                        <span class="sushi-block-name">Филадельфия Франция крем-брюле </span>
+                        <span class="sushi-block-contain">Сливочный сыр, семга, соус у...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi3.png" alt="Sushi">
+                        <span class="sushi-block-name">СуперМен Филадельфия Криптонит</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi4.png" alt="Pizza">
+                        <span class="sushi-block-name">Тигр мама очень опасный суш</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sushi-bottom-blocks">
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi4.png" alt="Pizza">
+                        <span class="sushi-block-name">Тигр мама очень опасный суш</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi3.png" alt="Sushi">
+                        <span class="sushi-block-name">СуперМен Филадельфия Криптонит</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi1.png" alt="Sushi">
+                        <span class="sushi-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sushi-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sushi-block">
+                        <img class="sushi-block-img" src="./img/sushi2.png" alt="Sushi">
+                        <span class="sushi-block-name">Филадельфия Франция крем-брюле </span>
+                        <span class="sushi-block-contain">Сливочный сыр, семга, соус у...</span>
+                        <button class="sushi-block-btn"><a class="sushi-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sushi-block-price">395 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fries">
+            <div class="fries-top">
+                <h2 class="fries-top__title">Закуски</h2>
+            </div>
+            <div class="fries-top-blocks">
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries1.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries2.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries3.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries4.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fries-bottom-blocks">
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries4.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries3.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries2.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fries-block">
+                        <img class="fries-block-img" src="./img/fries1.png" alt="Fries">
+                        <span class="fries-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="fries-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="fries-block-btn"><a class="fries-block-btn-item" href="">Выбрать</a></button>
+                        <span class="fries-block-price">475 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dessert">
+            <div class="dessert-top">
+                <h2 class="dessert-top__title">Десерты</h2>
+            </div>
+            <div class="dessert-top-blocks">
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert1.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert2.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert3.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert4.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert-bottom-blocks">
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert3.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert1.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert4.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dessert-block">
+                        <img class="dessert-block-img" src="./img/dessert2.png" alt="Dessert">
+                        <span class="dessert-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="dessert-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="dessert-block-btn"><a class="dessert-block-btn-item" href="">Выбрать</a></button>
+                        <span class="dessert-block-price">395 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="drink">
+            <div class="drink-top">
+                <h2 class="drink-top__title">Напитки</h2>
+            </div>
+            <div class="drink-top-blocks">
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink1.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink2.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink3.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink4.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="drink-bottom-blocks">
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink3.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink1.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink4.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="drink-block">
+                        <img class="drink-block-img" src="./img/drink2.png" alt="drink">
+                        <span class="drink-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="drink-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="drink-block-btn"><a class="drink-block-btn-item" href="">Выбрать</a></button>
+                        <span class="drink-block-price">395 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sauce">
+            <div class="sauce-top">
+                <h2 class="sauce-top__title">Соусы</h2>
+            </div>
+            <div class="sauce-top-blocks">
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce1.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce2.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce3.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce4.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sauce-bottom-blocks">
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce3.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce2.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce4.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sauce-block">
+                        <img class="sauce-block-img" src="./img/sauce1.png" alt="sauce">
+                        <span class="sauce-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="sauce-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="sauce-block-btn"><a class="sauce-block-btn-item" href="">Выбрать</a></button>
+                        <span class="sauce-block-price">475 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="combo">
+            <div class="combo-top">
+                <h2 class="combo-top__title">Комбо</h2>
+            </div>
+            <div class="combo-top-blocks">
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo1.png" alt="Combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">475 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo2.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo3.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo4.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">525 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="combo-bottom-blocks">
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo3.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">425 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo2.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">395 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo4.png" alt="combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">525 ₽</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="combo-block">
+                        <img class="combo-block-img" src="./img/combo1.png" alt="Combo">
+                        <span class="combo-block-name">Филадельфия кранчито супер суш</span>
+                        <span class="combo-block-contain">Семга, рис, сыр креметто, чип...</span>
+                        <button class="combo-block-btn"><a class="combo-block-btn-item" href="">Выбрать</a></button>
+                        <span class="combo-block-price">475 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery">
+            <h2 class="delivery-title">Доставка пиццы в Москве</h2>
+            <p class="delivery-text">Захотелось чего-то вкусного и сытного? Желание простое и понятное, только в
+                холодильнике все не то, и до
+                магазина идти лень. Все пропало? Нет. Недорого заказать пиццу в Москве очень просто! Вам на помощь
+                спешит супергерой – Domino’s Pizza! Как у всякого супергероя, у Domino’s Pizza есть свои суперсилы:
+                восхитительный вкус продукции из отборных ингредиентов; широкий ассортимент, включающий легендарные,
+                фирменные и классические виды, для вегетарианцев и любителей экспериментировать; быстрая и бесплатная
+                доставка пиццы в течение 30 минут, чтобы вкусное и ароматное блюдо не успевало остыть.
+
+                Как сделать заказ
+                Доставка пиццы от Domino’s – это когда Вам не нужно никуда ехать или звонить, ведь есть Интернет.
+                Никогда еще заказ пиццы на дом в Москве не был таким простым! Чтобы заказать пиццу онлайн, Вам
+                необходимо: выбрать понравившийся вариант и количество порций; положить желаемое в «Корзину»; не уходить
+                далеко, так как вкусная пицца на заказ с доставкой уже мчится к Вам из ближайшей пиццерии Domino’s. И не
+                забудьте оплатить заказ курьеру!</p>
+        </section>
+    </main>
+    <div class="footer">
+        <img class="footer-logo" src="./img/logo-footer.svg" alt="logo">
+        <div class="footer-lists">
+            <ul class="footer-where">
+                <li class="footer-where-title">Куда пицца</li>
+                <li class="footer-where-item">О компании</li>
+                <li class="footer-where-item">Пользовательское соглашение</li>
+                <li class="footer-where-item">Условия гарантии</li>
+            </ul>
+            <ul class="footer-help">
+                <li class="footer-help-title">Помощь</li>
+                <li class="footer-help-item">Ресторан</li>
+                <li class="footer-help-item">Контакты</li>
+                <li class="footer-help-item">Поддержка</li>
+                <li class="footer-help-item">Отследить заказ</li>
+            </ul>
+            <ul class="footer-contacts">
+                <li class="footer-contacts-title">Контакты</li>
+                <li class="footer-contacts-item"><img src="./img/phone.svg" alt="phone"><span
+                        class="footer-contacts-item-txt">+7 (926) 223-10-11</span></li>
+                <li class="footer-contacts-item"><img src="./img/point-footer.svg" alt="point"><span
+                        class="footer-contacts-item-txt">Москва, ул. Юных Ленинцев, д.99</span></li>
+                <li class="footer-contacts-item"><img src="./img/fb.svg" alt="Facebook"><span
+                        class="footer-contacts-item-txt">Facebook</span></li>
+                <li class="footer-contacts-item"><img src="./img/inst.svg" alt="Inst"><span
+                        class="footer-contacts-item-txt">Instagram</span></li>
+            </ul>
+        </div>
+        <span class="footer-copyright">© Copyright 2021 — Куда Пицца</span>
+    </div>
+</div>
+</body>
+
+</html>
